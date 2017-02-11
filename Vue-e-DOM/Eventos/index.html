@@ -9,8 +9,8 @@
 </head>
 <body>
   <div id="app">
-    <button v-on:click="increase">Aumentar</button>
-    <button v-on:click="decrease">Diminuir</button>
+    <button v-on:click="increase(2)">Aumentar</button>
+    <button v-on:click="decrease(2)">Diminuir</button>
     <p>{{ counter }}</p>
     <p>Cordenadas: {{ x }} / {{ y }}</p>
     <div v-on:mousemove="updateCoordinates" style="height: 400px; width: 400px; background: #8844ee; margin: 0 auto">
